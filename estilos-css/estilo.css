@@ -1,0 +1,618 @@
+
+/* ******************************************************************************************************************************* */
+/* *************************************************ESTILO GENERAL**************************************************************** */
+/* ******************************************************************************************************************************* */
+
+
+html{
+        background-color: black;
+        padding: 0%;
+        margin: 0%;
+    }
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background: rgb(37,215,60);
+    background: linear-gradient(0deg, rgba(37,215,60,0.300) 0%, rgba(0, 213, 255, 0.300) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    } 
+
+h1 {
+    margin: 0%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color:#00FF50;
+    text-transform: capitalize;
+    font-size: 90px;
+    
+    }
+
+h2{
+    font-size: 30px;
+    color: #00FF50;
+    text-align: center;
+    margin-top: 50px;
+}
+h3 {
+    color:#00FF50;
+}
+p{
+    color: white;
+    margin: 60px;
+}
+
+
+/* ******************************************************************************************************************************* */
+/* **********************************************QUE ES MASTER CODE Y PLANTILLAS************************************************** */
+/* ******************************************************************************************************************************* */
+
+
+/* h2 titulo que es mastercode */
+#titulo1{
+    text-align: center;
+    
+}
+/* parrafo que es mastercode */
+#content1 {
+    text-align: center;
+    font-weight: bold; 
+}
+
+/* h3 nombre plantilla */
+.code {
+    align-content: top;
+    display: flex;
+}
+
+/* span descripcion de plantilla */
+.info {
+    margin-right: 80px;
+    color: white;
+    text-align: left;
+    height:200px;
+}
+
+/* imagen de plantilla */
+.plantilla {
+    height:200px;
+    width: 220px;
+    margin-left: 50px; 
+    margin-right: 50px; 
+}
+
+/* bordes y margen de plantilla */
+.articulos {
+    border:#00FF50 2px solid ;
+    margin: 60px;
+}
+
+
+
+/* ******************************************************************************************************************************* */
+/* *************************************************BARRA DE NAVEGACION*********************************************************** */
+/* ******************************************************************************************************************************* */
+
+
+#logotipo{
+    height: 100px;
+    width: 140px;
+    vertical-align: bottom;
+    }
+
+
+.centrarlogo{ 
+    text-align: center; 
+} 
+
+nav{ 
+    border-top: 1px groove hsla(0, 0%, 100%, 0.43); 
+    border-bottom: 1px groove hsla(0, 0%, 100%, 0.43); 
+    padding: 0%; 
+    text-align: center; 
+    text-transform: capitalize; 
+}  
+nav li .btn-neon{ 
+    position: relative; 
+    display: inline-block; 
+    padding: 15px 80px; 
+    color: #fff; 
+    letter-spacing: 4px; 
+    font-size: 18px; 
+    text-decoration: none; 
+    overflow: hidden; 
+    transition: 0.2s; 
+} 
+nav li .btn-neon:hover { 
+    background:#25d73c4d; 
+    box-shadow: 0 0 10px #25d73c4d, 0 0 40px #25d73c4d, 0 0 80px #25d73c4d; 
+    transition-delay: 1.s; 
+} 
+nav li .btn-neon span { 
+    position: absolute; 
+    display: block; 
+} 
+        #span1 { 
+    top: 0; 
+    left: -100%; 
+    width:100%; 
+    height: 2px; 
+    background: linear-gradient(90deg,transparent,#ffff); 
+    } 
+
+    nav li .btn-neon:hover #span1 { 
+        left: 100%; 
+        transition:1s; 
+        } 
+
+        #span3 { 
+            bottom: 0; 
+            right:-100%; 
+            width: 100%; 
+            height: 2px; 
+            background: linear-gradient(270deg,transparent,#ffff); 
+        } 
+        nav li .btn-neon:hover #span3{ 
+            right:100%; 
+            transition: 1s; 
+            transition-delay: 0.5s; 
+        } 
+        #span2{ 
+            top: -100%; 
+            right:0; 
+            width: 2px; 
+            height: 100%; 
+            background: linear-gradient(180deg,transparent,#ffff); 
+        } 
+nav li .btn-neon:hover #span2{ 
+    top:100%; 
+    transition: 1s; 
+    transition-delay: 0.25s; 
+} 
+        #span4 { 
+    bottom: -100%; 
+    left:0; 
+    width: 2px; 
+    height: 100%; 
+    background: linear-gradient(360deg,transparent,#ffff); 
+} 
+nav li .btn-neon:hover #span4{ 
+    bottom: 100%; 
+    transition: 1s; 
+    transition-delay: 0.75s; 
+}                 
+
+nav li{ 
+    display: inline-block;    
+} 
+
+nav li .btn-neon:active{ 
+    color: #03b93c;
+    background:#25d73c4d; 
+    box-shadow: inset 0 0 10px #000,  0 0 40px #25d73c4d, 0 0 80px #25d73c4d;
+    transition-delay: 1.s; 
+}
+
+/* ******************************************************************************************************************************* */
+/* *************************************************FORMULARIO DE REGISTRARSE***************************************************** */
+/* ******************************************************************************************************************************* */
+
+
+/* div contenedor de formulario */
+.formulario {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-top: 30px;
+}
+
+.ingresar{
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+.ingresardiv{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+#btningresar img{
+    height: 11px;
+    width: 15px;
+}
+
+.registrarse{
+    margin: 20px;
+}
+
+button, input, textarea {
+    border: 1px solid #00FF50;
+    background: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'montserrat';
+    cursor: pointer;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+#mensaje{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 193px;
+    height: 100px;
+}
+label {
+    color: #fff;
+    font-family: 'montserrat';
+    font-size: 15px;
+    margin: 10px;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* hover de casillas formulario */
+input:hover{
+    background: #00FF50;
+    transition: 0.5s;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+button:hover{
+    background: #00FF50;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+/* ******************************************************************************************************************************* */
+/* *************************************************SOBRE NOSOTROS**************************************************************** */
+/* ******************************************************************************************************************************* */
+
+/* "main" de sobre nosotros */
+.nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+/* "article" para poner 2 perfiles en linea */
+.nosotros .parlinea{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* div de tarjeta perfil */
+.nosotros .card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 60px;
+}
+
+/* contenido del div tarjeta perfil */
+.nosotros .card .content{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background: #b1b1b1;
+}
+
+/* contenedor de imagen de la tarjeta perfil */
+.nosotros .card .content .img{
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+/* imagen de la tarjeta perfil */
+.nosotros .card .content .img img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+/* span diagonal con gradiente de la tarjeta perfil  */
+.nosotros .card .content span{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background:linear-gradient(to right , #00414B , #00FF64);
+    transform: rotate(-35deg);
+    top: -80px;
+    left: -90px;
+}
+
+/* "nombre" h4 de la tarjeta perfil */
+.nosotros .card .content h4{
+    font-size: 18px;
+    color: #00414B;
+    margin-bottom: 5px;
+}
+
+/* "titulo" h6 de la tarjeta perfil */
+.nosotros .card .content h6{
+    font-size: 13px;
+    color: #00FF63;
+    text-shadow: #00FF63;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+/* "descripcion" parrafo de la tarjeta perfil */
+.nosotros .card .content p{
+    font-size: 13px;
+    color: #00414B;
+    margin: 10px 40px;
+}
+
+/* ******desplegable de links de la tarjeta perfil *******/
+.nosotros .card .links{
+    position: absolute;
+    z-index: 90;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 10px;
+    align-items: center;
+    right: 5px;
+    top: 1px;
+    transition: .5s;
+}
+
+.nosotros .card:hover .links {
+    right: -105px;
+    border-radius: 0 10px 10px 0;
+}
+.nosotros .card .links a{
+    font-size: 20px;
+    color: #00414B;
+}
+
+.nosotros .card .links a:nth-child(1):hover {
+    color: #00FF64;
+}
+.nosotros .card .links a:nth-child(2):hover {
+    color: #00FF64;
+}
+.nosotros .card .links a:nth-child(3):hover {
+    color: #00FF64;
+}
+.nosotros .card .links a:nth-child(4):hover {
+    color: #00FF64;
+}
+
+.nosotros .card .links a:nth-child(5):hover {
+    color: #00FF64;
+}
+
+
+/***** logo central de mastercode intermitente *****/
+.logocentral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logocentral img{
+    height: 190px;
+    width: 260px;
+    opacity: 0.5;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* animacion intermitente del logo */
+@keyframes blink {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+.logocentral img {
+    animation: blink 4s;
+    animation-iteration-count: infinite;
+}
+
+/* ***************************************************************************** */
+/* *********************************PIE DE PAGINA******************************* */
+/* ***************************************************************************** */
+
+footer{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+/* ******************************************************************************************************************************* */
+/* *****************************************************CARROUSELL**************************************************************** */
+/* ******************************************************************************************************************************* */
+
+
+
+/* Css Carrusel */
+
+/* #carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease;
+    transition: all 5s ease;
+
+    height: 250px;
+    width: 133%;
+}
+
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.imagenes{
+    height: 250px;
+    width: 100%;
+}
+
+.carrusel-elemento {
+    float: left;
+    width: 25%;
+}
+
+@-moz-keyframes automatizacion {
+    0% {
+	margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+	75% {
+        margin-left: -300%;
+    }
+	
+	99% {
+        margin-left: -300%;
+    }
+	
+    100% {
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes automatizacion {
+    0% {
+		margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+	75% {
+        margin-left: -300%;
+    }
+	
+	99% {
+        margin-left: -300%;
+    }
+	
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes automatizacion {
+    0% {
+		margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+	75% {
+        margin-left: -300%;
+    }
+	
+	99% {
+        margin-left: -300%;
+    }
+	
+    100% {
+        margin-left: 0;
+    }
+} */
+/* fin de css carrusel */

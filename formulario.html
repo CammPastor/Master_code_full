@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos-css/estilo.css">
+    <link rel="icon" href="estilos-css/imagenes/logo-mastercode.png">
+    <script src="https://kit.fontawesome.com/c32bd313b9.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+<body>
+   <!-- *****************************************BARRA DE NAVEGACION****************************************************************** -->
+
+        <div class= "centrarlogo"><h1> 
+            <img src="estilos-css/imagenes/logo-mastercode.png" alt="logotipo" id="logotipo"> master code 
+        </h1>  
+        </div> 
+        
+            <nav> 
+            <ul> 
+                <li><a href="index.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    inicio 
+                </a></li> 
+                <li><a href="plantillas.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    plantillas 
+                </a></li> 
+                <li><a href="nosotros.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    sobre nosotros 
+                </a></li> 
+                <li><a href="ingresar.html" class="btn-neon"> 
+                    <span id="span1"></span> 
+                    <span id="span2"></span> 
+                    <span id="span3"></span> 
+                    <span id="span4"></span> 
+                    mi cuenta
+                </a></li> 
+            </ul>  
+        </nav>
+    
+
+     <!-- *****************************************FORMULARIO DE REGISTRARSE********************************************************** -->
+
+    <main class="container">
+        <h2>Ingresa tus datos y registrate gratis!</h2>
+        <div class = "formulario">
+            <form action="alla lo estan enviando" method="post">
+
+                <label for="nombre">Nombre: <em>*</em> <br> 
+                    <input required  placeholder=”Luis” type="text" id="nombre" name="user_name" min="3" max="50"  >
+                </label><br>
+
+                <label for="apellido"><br> Apellido: <em>*</em><br>
+                    <input required  placeholder=”Sanchez” type="text" id="apellido" name="user_name" min="3" max="50" >
+                </label><br>
+
+                <label for="fecha-nacimiento"><br>Fecha de nacimiento: <em>*</em><br>
+                    <input required type="date" id="fecha-nacimiento" name="user_name" >
+                </label><br>
+
+                <label for="correo"><br>Correo electronico <em>*</em><br>
+                    <input required  placeholder=”info@dominio.com” type="text" id="correo" name="user_name" >
+                </label><br>
+
+                <label for="contraseña"><br>Contraseña <em>*</em><br>
+                    <input required type="password" id="contraseña" name="user_name" >
+                </label><br>
+
+                <label for="confirmar-contraseña"><br> Confirmar contraseña<em>*</em><br>
+                    <input required type="password" id="contraseña" name="user_name" >
+                </label><br>
+
+                <label for="Acepto"><br> 
+                    <input required type="checkbox" id="acepto" name="user_name" /> Acepto los terminos y condiciones 
+                </label><br>
+
+                <label for="mensaje"> <br> Mensaje: <br> 
+                    <textarea id="mensaje" name="mensaje"></textarea> <br> 
+                </label><br>
+
+                
+                <button type="" class="registrarse"><a href="index.html">Registrarse</a></button> <br>
+                <button type="" class="volver"><a href="index.html">&#60&#60volver al inicio</a></button>
+            </form>
+        </div>
+    </main>
+    <footer>Master Code Todos los Derechos Reservados &copy; </footer>
+</body>
+</html>
